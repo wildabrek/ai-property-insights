@@ -3,7 +3,7 @@ import { ArrowRight, Sparkles } from "lucide-react";
 
 export const CTA = () => {
   return (
-    <section className="py-24 lg:py-32 relative overflow-hidden">
+    <section className="py-16 md:py-24 lg:py-32 relative overflow-hidden">
       <div className="absolute inset-0 gradient-primary opacity-5" />
       
       <div className="container mx-auto px-4 relative">
@@ -13,7 +13,7 @@ export const CTA = () => {
             <span className="text-sm font-semibold">Join 1,000+ Smart Investors</span>
           </div>
           
-          <h2 className="text-4xl lg:text-6xl font-bold leading-tight">
+          <h2 className="text-3xl md:text-4xl lg:text-6xl font-bold leading-tight">
             Ready to transform your
             <br />
             <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
@@ -21,7 +21,7 @@ export const CTA = () => {
             </span>
           </h2>
           
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base md:text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto">
             Join thousands of investors who are making smarter decisions with 
             AI-powered insights.
           </p>

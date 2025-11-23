@@ -10,7 +10,7 @@ const footerLinks = {
 export const Footer = () => {
   return (
     <footer className="border-t border-border bg-card">
-      <div className="container mx-auto px-4 py-12 lg:py-16">
+      <div className="container mx-auto px-4 py-8 md:py-12 lg:py-16">
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8 lg:gap-12 mb-12">
           {/* Brand */}
           <div className="col-span-2">
